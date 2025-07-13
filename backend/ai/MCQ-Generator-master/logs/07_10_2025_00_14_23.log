@@ -1,0 +1,1 @@
+[2025-07-10 00:14:40,448] 1025 httpx -INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"

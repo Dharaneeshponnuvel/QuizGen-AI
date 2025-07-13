@@ -1,0 +1,2 @@
+[2025-07-09 23:51:51,943] 1025 httpx -INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+[2025-07-09 23:52:11,659] 1025 httpx -INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"

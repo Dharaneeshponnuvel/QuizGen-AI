@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         Int      @id @default(autoincrement())
+  studentId  String   @unique
+  name       String
+  email      String   @unique
+  password   String
+  role       Role     @default(STUDENT)
+  attempts   Attempt[]
+}
+
+model Quiz {
+  id          Int         @id @default(autoincrement())
+  title       String
+  book        String
+  pageFrom    Int
+  pageTo      Int
+  duration    Int
+  startAt     DateTime?
+  endAt       DateTime?
+  status      QuizStatus  @default(DRAFT)
+  subject     String
+  level       String
+  count       Int
+  questions   Question[]
+  eligible    QuizEligibility[]
+  attempts    Attempt[]
+  adminId     String         // <-- NEW FIELD
+  
+}
+
+model Question {
+  id          Int      @id @default(autoincrement())
+  quizid      Int
+  body        String
+  options     String[] // ["Option A", "Option B", "Option C", "Option D"]
+  correct     Int
+  aiGenerated Boolean
+  quiz        Quiz     @relation(fields: [quizid], references: [id])
+}
+
+model Attempt {
+  id          Int      @id @default(autoincrement())
+  quizid      Int
+  userId      String   // must match the field it references (User.studentId)
+  score       Int
+  startedAt   DateTime
+  submittedAt DateTime?
+  
+  quiz        Quiz     @relation(fields: [quizid], references: [id])
+  user        User     @relation(fields: [userId], references: [studentId])
+}
+
+model QuizEligibility {
+  id         Int      @id @default(autoincrement())
+  quizid     Int
+  studentId  String
+  quiz       Quiz     @relation(fields: [quizid], references: [id])
+}
+
+enum Role {
+  ADMIN
+  STUDENT
+}
+
+enum QuizStatus {
+  DRAFT
+  ACTIVE
+  CLOSED
+}

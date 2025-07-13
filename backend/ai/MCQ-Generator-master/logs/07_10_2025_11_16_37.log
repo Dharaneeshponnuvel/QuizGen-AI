@@ -1,0 +1,34 @@
+[2025-07-10 11:16:41,715] 97 werkzeug -WARNING -  * Debugger is active!
+[2025-07-10 11:16:41,725] 97 werkzeug -INFO -  * Debugger PIN: 517-480-793
+[2025-07-10 11:16:41,903] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:41] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:41,905] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:41] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:45,098] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:45] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:45,099] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:45] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:47,788] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:47] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:48,091] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:48] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:51,089] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:51] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:51,092] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:51] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:53,784] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:53] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:54,102] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:54] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:57,088] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:57] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:57,090] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:57] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:16:59,784] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:16:59] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:00,089] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:00] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:03,086] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:03] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:03,088] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:03] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:06,084] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:06] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:06,091] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:06] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:08,776] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:08] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:09,082] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:09] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:12,087] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:12] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:12,089] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:12] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:15,093] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:15] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:15,095] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:15] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:17,785] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:17] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:18,097] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:18] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:21,088] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:21] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:21,090] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:21] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:23,790] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:23] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:24,109] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:24] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:27,111] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:27] "[33mGET /_stcore/health HTTP/1.1[0m" 404 -
+[2025-07-10 11:17:27,113] 97 werkzeug -INFO - 127.0.0.1 - - [10/Jul/2025 11:17:27] "[33mGET /_stcore/host-config HTTP/1.1[0m" 404 -
